@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Страница — 1" id="XMcHVpUDI2W7waY-wy_d">
+    <mxGraphModel dx="1189" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0TyZYf3-F13uQcDRGxII-2" value="Infrastructure" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=12;dashed=1;dashPattern=8 8;fillColor=none;align=left;fontSize=16;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="1080" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0TyZYf3-F13uQcDRGxII-3" value="MessageBrokerManager" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="0TyZYf3-F13uQcDRGxII-4" value="KafkaMessaging" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="570" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TyZYf3-F13uQcDRGxII-5" value="ActiveMQMessaging" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="620" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TyZYf3-F13uQcDRGxII-6" value="RabbitMQMessaging" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="670" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TyZYf3-F13uQcDRGxII-11" value="Application" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=12;dashed=1;dashPattern=8 8;fillColor=none;align=left;fontSize=16;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="1080" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0TyZYf3-F13uQcDRGxII-12" value="DatabaseManager" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="280" y="530" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="0TyZYf3-F13uQcDRGxII-13" value="GORMProvider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="570" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TyZYf3-F13uQcDRGxII-14" value="PSQLProvider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="620" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TyZYf3-F13uQcDRGxII-16" value="EventManager" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="160" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
